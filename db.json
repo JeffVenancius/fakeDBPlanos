@@ -1,18 +1,19 @@
 {	
-	"plans": [
-			[
-				{"plan":"100MB", "price": 3490}, 
-				{"plan":"200MB", "price": 4990}, 
-				{"plan":"300MB", "price": 6990}
-			],
-		
-			[
-				{"plan":"FIXO ILIMITADO BRASIL", "price": 4999}
-			],
-
-			[
-				{"plan":"Ultimate HD", "price": 3490}, 
-				{"plan":"Full HD", "price": 4990}
-			]
-		]
+	"plans": {
+			"internet":
+				[
+					{"plan":"100MB", "price": 3490}, 
+					{"plan":"200MB", "price": 4990}, 
+					{"plan":"300MB", "price": 6990}
+				],
+			"Fixo":
+				[
+					{"plan":"FIXO ILIMITADO BRASIL", "price": 4999}
+				],
+			"TV":
+				[
+					{"plan":"Ultimate HD", "price": 3490}, 
+					{"plan":"Full HD", "price": 4990}
+				]
+		}
 }
